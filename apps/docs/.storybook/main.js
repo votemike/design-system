@@ -11,6 +11,15 @@ const config = {
     getAbsolutePath("@storybook/addon-essentials"),
     getAbsolutePath("@storybook/addon-docs"),
     getAbsolutePath("@storybook/addon-interactions"),
+    {
+      name: getAbsolutePath('@storybook/addon-coverage'),
+      options: {
+        istanbul: {
+          include: ['../../../packages/ui/src/**'],
+          debug: true,
+        },
+      },
+    },
   ],
   framework: {
     name: getAbsolutePath("@storybook/react-vite"),

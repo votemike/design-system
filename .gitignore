@@ -8,6 +8,7 @@ dist-ssr
 *.local
 .env
 .cache
+coverage
 server/dist
 public/dist
 storybook-static/
