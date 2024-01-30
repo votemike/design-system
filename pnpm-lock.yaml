@@ -62,7 +62,7 @@ importers:
         version: 7.6.7(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
       '@storybook/react-vite':
         specifier: ^7.6.7
-        version: 7.6.7(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)(vite@5.0.10)
+        version: 7.6.7(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)(vite@5.0.12)
       '@storybook/test-runner':
         specifier: ^0.16.0
         version: 0.16.0
@@ -71,7 +71,7 @@ importers:
         version: 0.2.2
       '@vitejs/plugin-react':
         specifier: ^4.2.1
-        version: 4.2.1(vite@5.0.10)
+        version: 4.2.1(vite@5.0.12)
       eslint:
         specifier: ^8.56.0
         version: 8.56.0
@@ -85,8 +85,8 @@ importers:
         specifier: ^5.3.3
         version: 5.3.3
       vite:
-        specifier: ^5.0.10
-        version: 5.0.10
+        specifier: ^5.0.12
+        version: 5.0.12
 
   packages/eslint-config:
     devDependencies:
@@ -2457,7 +2457,7 @@ packages:
       chalk: 4.1.2
     dev: true
 
-  /@joshwooding/vite-plugin-react-docgen-typescript@0.3.0(typescript@5.3.3)(vite@5.0.10):
+  /@joshwooding/vite-plugin-react-docgen-typescript@0.3.0(typescript@5.3.3)(vite@5.0.12):
     resolution: {integrity: sha512-2D6y7fNvFmsLmRt6UCOFJPvFoPMJGT0Uh1Wg0RaigUp7kdQPs6yYn8Dmx6GZkOH/NW0yMTwRz/p0SRMMRo50vA==}
     peerDependencies:
       typescript: '>= 4.3.x'
@@ -2471,7 +2471,7 @@ packages:
       magic-string: 0.27.0
       react-docgen-typescript: 2.2.2(typescript@5.3.3)
       typescript: 5.3.3
-      vite: 5.0.10
+      vite: 5.0.12
     dev: true
 
   /@jridgewell/gen-mapping@0.3.3:
@@ -3547,7 +3547,7 @@ packages:
       - supports-color
     dev: true
 
-  /@storybook/builder-vite@7.6.7(typescript@5.3.3)(vite@5.0.10):
+  /@storybook/builder-vite@7.6.7(typescript@5.3.3)(vite@5.0.12):
     resolution: {integrity: sha512-Sv+0ROFU9k+mkvIPsPHC0lkKDzBeMpvfO9uFRl1RDSsXBfcPPZKNo5YK7U7fOhesH0BILzurGA+U/aaITMSZ9g==}
     peerDependencies:
       '@preact/preset-vite': '*'
@@ -3579,7 +3579,7 @@ packages:
       magic-string: 0.30.3
       rollup: 3.29.4
       typescript: 5.3.3
-      vite: 5.0.10
+      vite: 5.0.12
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -3966,7 +3966,7 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: true
 
-  /@storybook/react-vite@7.6.7(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)(vite@5.0.10):
+  /@storybook/react-vite@7.6.7(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)(vite@5.0.12):
     resolution: {integrity: sha512-1cBpxVZ4vLO5rGbhTBNR2SjL+ZePCUAEY+I31tbORYFAoOKmlsNef4fRLnXJ9NYUAyjwZpUmbW0cIxxOFk7nGA==}
     engines: {node: '>=16'}
     peerDependencies:
@@ -3974,16 +3974,16 @@ packages:
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
       vite: ^3.0.0 || ^4.0.0 || ^5.0.0
     dependencies:
-      '@joshwooding/vite-plugin-react-docgen-typescript': 0.3.0(typescript@5.3.3)(vite@5.0.10)
+      '@joshwooding/vite-plugin-react-docgen-typescript': 0.3.0(typescript@5.3.3)(vite@5.0.12)
       '@rollup/pluginutils': 5.0.4
-      '@storybook/builder-vite': 7.6.7(typescript@5.3.3)(vite@5.0.10)
+      '@storybook/builder-vite': 7.6.7(typescript@5.3.3)(vite@5.0.12)
       '@storybook/react': 7.6.7(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
-      '@vitejs/plugin-react': 3.1.0(vite@5.0.10)
+      '@vitejs/plugin-react': 3.1.0(vite@5.0.12)
       magic-string: 0.30.3
       react: 18.2.0
       react-docgen: 7.0.1
       react-dom: 18.2.0(react@18.2.0)
-      vite: 5.0.10
+      vite: 5.0.12
     transitivePeerDependencies:
       - '@preact/preset-vite'
       - encoding
@@ -4923,7 +4923,7 @@ packages:
       - supports-color
     dev: true
 
-  /@vitejs/plugin-react@3.1.0(vite@5.0.10):
+  /@vitejs/plugin-react@3.1.0(vite@5.0.12):
     resolution: {integrity: sha512-AfgcRL8ZBhAlc3BFdigClmTUMISmmzHn7sB2h9U1odvc5U/MjWXsAaz18b/WoppUTDBzxOJwo2VdClfUcItu9g==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -4934,12 +4934,12 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.23.3(@babel/core@7.23.7)
       magic-string: 0.27.0
       react-refresh: 0.14.0
-      vite: 5.0.10
+      vite: 5.0.12
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /@vitejs/plugin-react@4.2.1(vite@5.0.10):
+  /@vitejs/plugin-react@4.2.1(vite@5.0.12):
     resolution: {integrity: sha512-oojO9IDc4nCUUi8qIR11KoQm0XFFLIwsRBwHRR4d/88IWghn1y6ckz/bJ8GHDCsYEJee8mDzqtJxh15/cisJNQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -4950,7 +4950,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.23.3(@babel/core@7.23.7)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.0
-      vite: 5.0.10
+      vite: 5.0.12
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -6685,6 +6685,7 @@ packages:
   /esbuild@0.18.20:
     resolution: {integrity: sha512-ceqxoedUrcayh7Y7ZX6NdbbDzGROiyVBgC4PriJThBKSVPWnnFHZAkfI1lJT8QFkOwH4qOS2SJkS4wvpGl8BpA==}
     engines: {node: '>=12'}
+    hasBin: true
     requiresBuild: true
     optionalDependencies:
       '@esbuild/android-arm': 0.18.20
@@ -6714,6 +6715,7 @@ packages:
   /esbuild@0.19.7:
     resolution: {integrity: sha512-6brbTZVqxhqgbpqBR5MzErImcpA0SQdoKOkcWK/U30HtQxnokIpG3TX2r0IJqbFUzqLjhU/zC1S5ndgakObVCQ==}
     engines: {node: '>=12'}
+    hasBin: true
     requiresBuild: true
     optionalDependencies:
       '@esbuild/android-arm': 0.19.7
@@ -10252,6 +10254,7 @@ packages:
   /nanoid@3.3.7:
     resolution: {integrity: sha512-eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
+    hasBin: true
     dev: true
 
   /natural-compare@1.4.0:
@@ -11516,6 +11519,7 @@ packages:
   /rollup@3.29.4:
     resolution: {integrity: sha512-oWzmBZwvYrU0iJHtDmhsm662rC15FRXmcjCk1xD771dFDx5jJ02ufAQQTn0etB2emNk4J9EZg/yWKpsn9BWGRw==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
+    hasBin: true
     optionalDependencies:
       fsevents: 2.3.3
     dev: true
@@ -11523,6 +11527,7 @@ packages:
   /rollup@4.5.1:
     resolution: {integrity: sha512-0EQribZoPKpb5z1NW/QYm3XSR//Xr8BeEXU49Lc/mQmpmVVG5jPUVrpc2iptup/0WMrY9mzas0fxH+TjYvG2CA==}
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
+    hasBin: true
     optionalDependencies:
       '@rollup/rollup-android-arm-eabi': 4.5.1
       '@rollup/rollup-android-arm64': 4.5.1
@@ -12974,8 +12979,8 @@ packages:
       - supports-color
     dev: true
 
-  /vite@5.0.10:
-    resolution: {integrity: sha512-2P8J7WWgmc355HUMlFrwofacvr98DAjoE52BfdbwQtyLH06XKwaL/FMnmKM2crF0iX4MpmMKoDlNCB1ok7zHCw==}
+  /vite@5.0.12:
+    resolution: {integrity: sha512-4hsnEkG3q0N4Tzf1+t6NdN9dg/L3BM+q8SWgbSPnJvrgH2kgdyzfVJwbR1ic69/4uMJJ/3dqDZZE5/WwqW8U1w==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
